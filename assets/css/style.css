@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(70, 130, 180);
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+#principal{
+    background-color:rgb(176,196,222);
+    height: 100%;
+    width: 50%;
+    margin: 15vh auto;
+    padding: 20px 20px 0 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#titulo{
+    font-size: 3rem;
+    margin: 0 auto 15px auto;
+    
+}
+
+#sub-titulo{
+    font-size: 2rem;
+    margin: auto;
+    margin-bottom: 10px;
+    font-weight:100;
+}
+
+#campos{
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10vh 5vh auto;
+    row-gap: 10px;
+}
+
+#campo-texto{
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-color:transparent;
+}
+
+#botao{
+    border-radius: 8px;
+    width: 80%;
+    margin: auto;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    background:rgb(135,206,235);
+    border-color: rgba(25, 25, 112, 0.5);
+}
+
+#botao:hover{
+    background-color: rgb(131,111,255);
+}
+.resultados{
+    width: 100%;
+    background: rgb(156, 200, 214);
+    font-size: 1.5rem;
+    margin: 15px auto;
+    padding: 5px;
+   border-radius: 8px;
+}
+
+.resultado-vazio{
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 10px auto;
+    padding: 5px;
+    height: 5vh;
+}
